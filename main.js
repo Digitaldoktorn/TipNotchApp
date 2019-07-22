@@ -1,5 +1,3 @@
-
-
 function calculateTipAmount() {
     let billAmount = document.getElementById('bill_amount').value;
     let service = document.getElementById('service').value;

@@ -21,6 +21,7 @@ body {
 
     
 }
+
 h1 {
     font-family: 'Henny Penny', cursive;
     font-size: 46pt;
@@ -46,7 +47,6 @@ h1 {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     transition-duration: 0.2s;
-    
 }
 
 #button2 {
@@ -63,7 +63,6 @@ h1 {
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     transition-duration: 0.2s;
-    
 }
 
 #button:hover {
@@ -80,7 +79,6 @@ h1 {
 
 #totalTip {
     text-align: center;
-     
 }
 
 @keyframes shake {
