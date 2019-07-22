@@ -1,0 +1,93 @@
+body {
+    font-family: 'Henny Penny', cursive;
+    font-family: 'Share', cursive;
+    background-image: url('img/pina-messina-Sw2XNTgA-wc-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 1.5em;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 2em;
+    width: 500px;
+    height: 800px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    
+}
+h1 {
+    font-family: 'Henny Penny', cursive;
+    font-size: 46pt;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #000;
+    padding: 0.5em;
+    padding-top: 0.8em;
+}
+
+#button {
+    background-color: rgb(160, 17, 1);
+    color: #fff;
+    padding: 0.2em;
+    width: 200px;
+    height: 50px;
+    font-size: 28px;
+    text-transform: uppercase;
+    display: block;
+    margin: 30px auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition-duration: 0.2s;
+    
+}
+
+#button2 {
+    background-color: rgb(102, 133, 120);
+    color: #fff;
+    width: 85px;
+    height: 35px;
+    padding-bottom: 1em;
+    font-size: 22px;
+    display: block;
+    margin: 10px auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    transition-duration: 0.2s;
+    
+}
+
+#button:hover {
+    background-color: rgba(160, 17, 1, 0.7);
+}
+
+#button2:hover {
+    background-color: rgba(102, 133, 120, 0.7);
+}
+
+#tipAmount {
+    animation: .8s shake infinite alternate;
+}
+
+#totalTip {
+    text-align: center;
+     
+}
+
+@keyframes shake {
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(15deg); }
+    10% { transform: skewX(-15deg); }
+    15% { transform: skewX(15deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }  
+  }
